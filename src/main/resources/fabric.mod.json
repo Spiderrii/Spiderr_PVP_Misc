@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "pvpmisc",
+	"version": "${version}",
+	"name": "PvP Misc",
+	"description": "Small PvP quality-of-life HUD additions: a combo counter for hits landed on other players, and an FPS counter.",
+	"authors": [
+		"Spiderr"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/Spiderrii/PVP_MISC"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/combomod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"spiderr.combomod.Combomod"
+		],
+		"client": [
+			"spiderr.combomod.ComboModClient"
+		],
+		"walksylib": [
+			"spiderr.combomod.config.ComboConfig"
+		]
+	},
+	"mixins": [
+		"combomod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"walksylib": "*"
+	}
+}
