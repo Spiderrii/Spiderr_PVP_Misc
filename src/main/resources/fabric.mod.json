@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "pvpmisc",
 	"version": "${version}",
-	"name": "PvP Misc",
+	"name": "Spiderr's PvP Misc",
 	"description": "Small PvP quality-of-life HUD additions: a combo counter for hits landed on other players, and an FPS counter.",
 	"authors": [
 		"Spiderr"
