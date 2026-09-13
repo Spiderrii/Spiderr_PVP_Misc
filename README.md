@@ -1,6 +1,6 @@
 # PvP Misc
 
-Source code for my PvP Misc Minecraft mod.
+Source code for my Spiderr's PVP MISC.
 
 ## Features
 
