@@ -7,8 +7,11 @@ Source code for my Spiderr's PVP MISC.
 » Combo Counter
 » FPS Display
 
-» more coming soon!
+» Very customizable settings 
 
+## Dependencies
+Walksylib
+https://modrinth.com/mod/walksylib
 
 ## License
 
